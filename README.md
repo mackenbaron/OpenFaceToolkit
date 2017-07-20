@@ -42,3 +42,8 @@ Project Properties -> Linker -> General -> Additional Library Directories
 ```
 respectively, building the project OpenFaceToolkit should just work. The most likely erorr is that there is an issue with the DLL locations or includes, so depending on the details, that's what you'll get. 
 
+
+# References
+
+The LBFCascador was written by Jie Zhang and is available here: https://github.com/luoyetx/face-alignment-at-3000fps
+
