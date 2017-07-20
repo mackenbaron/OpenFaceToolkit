@@ -3,7 +3,7 @@ Providing Real-Time Face Processing for Windows
 
 ## Using the Pre-Built Windows Tools
 
-I have compiled a full standalone build for Windows 10 x86-64. It is located in the zip file "x86-64_Windows_10_OFER.zip". You can download the program and run it standalone using these binaries. (Download link: )
+I have compiled a full standalone build for Windows 10 x86-64. You can download the program and run it standalone using these binaries. (Download link: https://cdn.iridescent.io/index.php/s/bvi9NXepeckDJ2c)
 
 ## Usage
 
