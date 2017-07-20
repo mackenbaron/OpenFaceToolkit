@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>"C:/opencv/sources/data/haarcascades/haarcascade_frontalface_alt2.xml" "C:/Users/DreamFace/Documents/Visual Studio 2015/Projects/OpencvFERWin32Console/x64/Model/68.model" "C:/Users/DreamFace/Desktop/TensorFlow_FR/an_resnet-symbol.json" "C:/Users/DreamFace/Desktop/TensorFlow_FR/an_resnet-0184.params" "C:/Users/DreamFace/Desktop/TensorFlow_FR/mean_48.nd"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Alignment">
+      <UniqueIdentifier>{23740591-b350-420d-9944-dd1438cb221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Alignment\lbf">
+      <UniqueIdentifier>{9a2d5a35-6fe9-464e-b970-94d79bbab15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lbf">
+      <UniqueIdentifier>{508f8fe8-8fdb-4327-8db8-a24c7f7b64c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lbf_common.hpp">
+      <Filter>Header Files\lbf</Filter>
+    </ClInclude>
+    <ClInclude Include="lbf_lbf.hpp">
+      <Filter>Header Files\lbf</Filter>
+    </ClInclude>
+    <ClInclude Include="lbf_rf.hpp">
+      <Filter>Header Files\lbf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpencvFERWin32Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf\lbf_common.cpp">
+      <Filter>Source Files\Alignment\lbf</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf\lbf_lbf.cpp">
+      <Filter>Source Files\Alignment\lbf</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf\lbf_rf.cpp">
+      <Filter>Source Files\Alignment\lbf</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf_main.cpp">
+      <Filter>Source Files\Alignment</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf_prepare.cpp">
+      <Filter>Source Files\Alignment</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf_test.cpp">
+      <Filter>Source Files\Alignment</Filter>
+    </ClCompile>
+    <ClCompile Include="lbf_train.cpp">
+      <Filter>Source Files\Alignment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\..\..\..\opencv\sources\data\lbpcascades\lbpcascade_frontalface.xml" />
+  </ItemGroup>
+</Project>
