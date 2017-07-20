@@ -46,6 +46,7 @@ respectively, building the project OpenFaceToolkit should just work. The most li
 # References
 
 * The LBFCascador was written by Jie Zhang and is available here: https://github.com/luoyetx/face-alignment-at-3000fps
-* Resources for MxNet can be found at https://github.com/dmlc/mxnet
+* Resources for MxNet can be found here: https://github.com/dmlc/mxnet
+* OpenCV References are available here: https://github.com/opencv/opencv
 
 
