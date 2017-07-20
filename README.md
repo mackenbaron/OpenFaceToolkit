@@ -25,6 +25,7 @@ By default, or in the standalone, you can use the command:
 * OpenCV (v. 2.4.13) I have my version of OpenCV built with MSVC 1905 in the folder C:/opencv/. If you're not finding the right DLL files/versions, I would try configuring it in this variety
 * MxNet (v. 10.0.1) I have the project configured to find the dependency in C:/tools/mxnet(/build/Release) but the DLL file could be anywhere
 * OpenBLAS (v. 0.2.19) Located in C:/tools/OpenBLAS in my configuration, make sure that it has the fortran library.
+* Visual Studio (2017) I've not tried this without VS 2017, so I assume it probably won't work. But who knows? Who knows?
 
 ### Building
 
